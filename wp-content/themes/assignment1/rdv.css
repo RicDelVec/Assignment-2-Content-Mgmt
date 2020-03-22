@@ -1,0 +1,90 @@
+/*
+    Theme Name: RDV
+    Description: Custom theme for RDV.
+    Author: Riccardo Del Vecchio
+*/
+
+/* Main page styling */
+
+body {
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1 {
+    position: relative;
+    bottom: 15vh;
+}
+
+.entry-title {
+    position: relative;
+    bottom: 10vh;
+}
+
+/* Styling links */
+
+#site-header > div.header-inner.section-inner > div.header-navigation-wrapper > nav > ul > li > a {
+    color: cyan;
+}
+
+body > div.menu-modal.cover-modal.header-footer-group.show-modal.active > div > div > div.menu-top > nav > ul > li a{
+    color: cyan;
+}
+
+/* Styling main section with posts */
+
+#main > section > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 100px;
+}
+
+#main > section > div > div {
+    width: 20vw;
+}
+
+#main > section > div > div > div > h3 {
+    font-size: 2vw;
+}
+
+/* Styling Page written content */
+
+#post-2 > div.post-inner.thin > div {
+    position: relative;
+    bottom: 10vh;
+    text-align: left;
+}
+
+#post-2 > div.post-inner.thin > div > blockquote {
+    border-left: cyan solid;
+}
+
+/* Styling Form */
+
+#wpcf7-f68-p63-o1 > form > p:nth-child(6) > input {
+    background-color: cyan;
+}
+
+#wpcf7-f68-p63-o1 > form > p:nth-child(6){
+    text-align: center;
+}
+
+#wpcf7-f68-p63-o1 > form {
+    position: relative;
+    bottom: 10vh;
+    text-align: left;
+    font-size: 3vw;
+}
+
+#wpcf7-f68-p63-o1 > form > p > label {
+    font-size: 1.2vw;
+    font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* Styling Footer */
+
+#site-footer > div {
+    width: 300px;
+}
